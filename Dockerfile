@@ -14,4 +14,5 @@ RUN mkdir build && cd build && \
     cmake .. -DPRIMITIV_USE_CUDA=ON && \
     make -j 4 && \
     make install && \
+    make clean && \
     ldconfig
